@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="images/books-stack-of-three.png">
+
+</head>
+
+<body>
+
+    <div class="side-bar">
+        <div class="title-bar">
+            <img src="images/books-stack-of-three.png" alt="stack of 3 books">
+            <div class="title">CHAPTERS</div>
+        </div>
+
+        <div class="credit">
+            <span class="credit">Photo by&nbsp</span><a class="credit"
+                href="https://unsplash.com/photos/brown-wooden-framed-candle-holder-on-top-of-books-ip9R11FMbV8">Toa
+                Heftiba</a>
+            <span class="credit">&nbspon&nbsp</span><a class="credit" href="https://unsplash.com/">Unsplash</a>
+        </div>
+    </div>
+
+    <div class="main-bar">
+
+        <div class="header">
+            <p class="text">Welcome to <span class="title-span">CHAPTERS</span> your online sanctuary for captivating
+                reads. Explore
+                curated
+                collections, discover new releases, and find your next literary adventure.
+            </p>
+            <p class="text"> Your journey begins here, where imagination knows no limits.</p>
+        </div>
+
+
+        <div class="body">
+
+            <div class="body-header">
+                Let's do this !
+            </div>
+
+            <form class="body-content" action="#" method="post">
+
+                <div class="parent">
+                    <div class="child">
+                        <label for="first_name">FIRST NAME*
+                        </label>
+                        <input placeholder="John" type="text" name="first_name" id="first_name" pattern="[A-Za-z\s]+">
+                    </div>
+
+                    <div class="child">
+                        <label for="email">EMAIL*
+                        </label>
+                        <input placeholder="example@gmail.com" type="email" name="email" id="email">
+                    </div>
+
+
+                    <div class="child">
+                        <label for="password">PASSWORD*
+                        </label>
+                        <input class="password" type="password" name="password" id="password">
+                    </div>
+                </div>
+
+
+                <div class="parent">
+                    <div class="child">
+                        <label for="last_name">LAST NAME*
+                        </label>
+                        <input placeholder="Doe" type="text" name="last_name" id="last_name" pattern="[A-Za-z\s]+">
+                    </div>
+
+                    <div class="child">
+                        <label for="phone_number">PHONE NUMBER
+                        </label>
+                        <input placeholder="000-000-0000" type="tel" name="phone_number" id="phone_number"
+                        pattern="(^\d{3}-\d{3}-\d{4}$|^\d{10}$)">
+                    </div>
+
+
+                    <div class="child">
+                        <label for="confirm_password"> CONFIRM PASSWORD*
+                        </label>
+                        <input class="confirm_password" type="password" name="confirm_password" id="confirm_password">
+                        <span class="password-mismatch-message"></span>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </form>
+
+        </div>
+
+
+        <div class="footer">
+
+            <button class="btn" type="submit">Create Account</button>
+            <div class="links">
+                <span>Already have an account?</span>
+                <a href="#">Log in</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
